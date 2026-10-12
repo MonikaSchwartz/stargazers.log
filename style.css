@@ -1,14 +1,40 @@
 body {
-  font-family: sans-serif;
-  margin: 2rem;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f6f8fa;
+  color: #24292f;
 }
 
-ul {
+main {
+  max-width: 760px;
+  margin: 48px auto;
+  padding: 0 20px;
+}
+
+h1 {
+  margin-bottom: 8px;
+}
+
+.starred-list {
   list-style: none;
   padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 12px;
 }
 
-li {
-  padding: 0.5rem 0;
-  border-bottom: 1px solid #ddd;
+.starred-item {
+  background: #fff;
+  border: 1px solid #d0d7de;
+  border-radius: 10px;
+  padding: 14px 16px;
+}
+
+.error-message {
+  color: #cf222e;
+  background: #fff1f0;
+  border: 1px solid #ffb3b3;
+  border-radius: 8px;
+  padding: 12px 14px;
+  list-style: none;
 }
